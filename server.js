@@ -23,6 +23,8 @@ app.use(morgan('dev'));
 // import routes
 app.use('/api/v1/test', require('./routes/testRoutes'));
 app.use('/api/v1/auth', require('./routes/authRoutes'));
+app.use('/api/v1/user', require('./routes/userRoutes'));
+
 
 // routes
 app.get('/', (req, res) => {
