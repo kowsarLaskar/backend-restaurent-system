@@ -20,4 +20,7 @@ router.post("/updatePassword", authMiddleware, updatePasswordController);
 // DELETE USER || DELETE
 router.delete("/deleteUser/:id", authMiddleware, deleteUserController);
 
+// DELETE USER || DELETE
+// router.delete("/deleteUser/:id", authMiddleware, deleteUserController);
+
 module.exports = router;
